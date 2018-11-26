@@ -2,6 +2,18 @@
 
 1. 列表排序SortView控件用法：
 
+   Add it in your root build.gradle at the end of repositories:
+    allprojects {
+     repositories {
+      ...
+      maven { url 'https://www.jitpack.io' }
+     }
+    }
+    Add the dependency
+    dependencies {
+            implementation 'com.github.plplum:Appkit:v1.0.0'
+    }
+
  (1) 
  <com.christ.sortview.SortView  
  
