@@ -1,6 +1,7 @@
 # Appkit
 
-1. SortView控件用法：
+1. 列表排序SortView控件用法：
+
  (1) <com.christ.sortview.SortView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -13,10 +14,11 @@
     </com.christ.sortview.SortView> 
 
  （2）设置属性
+ 
       	app:title_background_color = "@color/white"
-    	app:title_text="价格"
-    	app:title_text_color="@color/gray_515457"
-    	app:title_text_size="14"
+      	app:title_text="价格"
+      	app:title_text_color="@color/gray_515457"
+    	  app:title_text_size="14"
 
 
 （3）实现SortView.OnSortListener接口中的onSort方法
