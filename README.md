@@ -3,8 +3,8 @@
 1. 列表排序SortView控件用法：
 
  (1) 
+ <com.christ.sortview.SortView  
  
-  <com.christ.sortview.SortView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingStart="20dp"
@@ -15,7 +15,7 @@
         app:title_text_size="14">
         
     </com.christ.sortview.SortView>
-    
+ 
  （2）设置属性
  
       	app:title_background_color = "@color/white"
